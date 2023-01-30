@@ -1,4 +1,4 @@
-FROM ubuntu is build-step
+FROM ubuntu as build-step
 copy . /app
 
 from nginx
